@@ -21,7 +21,6 @@ describe('getComputedStyle()', function () {
 		if (computedMatrix !== matrix) {
 			throw new Error(computedMatrix + ' expected to be equal to ' + matrix);
 		}
-		//assert.equal(matrix, computedMatrix);
 	});
 
 	it('should return correct time', function () {
@@ -30,7 +29,6 @@ describe('getComputedStyle()', function () {
 		if (computedTime !== time) {
 			throw new Error(computedTime + ' expected to be equal to ' + time);
 		}
-		//expect(computedTime).to.equal(time);
 	});
 
 });

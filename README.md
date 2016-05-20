@@ -9,3 +9,5 @@ To see that simply run:
 and 
 `npm test`
 
+This is the result:
+![test results](https://raw.githubusercontent.com/mateuszwozniak/chrome-karma-test/master/result.png)
